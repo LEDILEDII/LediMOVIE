@@ -1,0 +1,287 @@
+.Backgrounnd-img{
+    position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+       -webkit-filter: grayscale(80%);
+       filter:grayscale(80%) ;
+       -webkit-filter: blur(5px);
+       filter:blur(5px) ;
+        
+  }
+
+  .navbar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+  }
+  ul{
+    text-decoration:none ;
+    text-decoration-style: none;
+    text-decoration-line: none;
+
+}
+
+  .bottom-text{
+    position: absolute;
+    top: 96%;
+    left: 35%;
+  }
+  .ledimovie-text{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .ledimovie-text:hover{
+    color: #e50914;
+  }
+
+  .logoweb{
+    position: absolute;
+    left: 80px;
+    top: 25px;
+    width: 200px;
+    height: 60px;
+  }
+
+
+  .Home{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    left: 400px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .Categories{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    left: 245px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .Contact{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    left: 90px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .About{
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  position: relative;
+  left: -70px;
+  font-size: 30px;
+  font-weight: 800;
+  }
+  .Login{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    left: -220px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+
+
+  .click:hover{
+    color:#e50914 ;
+    text-decoration: none;
+    text-transform: none;
+    transform: translate(0.3s);
+  }
+
+  .POSITION{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 10px rgba(250, 16, 16, 0.25));
+    transition: all 0.5s ease-out;
+  }
+  .POSITION:hover{
+    width: 210px;
+    height: 290px;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 10px rgba(250, 16, 16, 0.25));
+    transition: all 0.5s ease-out;
+  }
+  
+
+
+  .FILM1{
+    position: absolute;
+    left: 62%;
+    top: 20%;
+  }
+  .FILM2{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+  }
+  .FILM3{
+    position: absolute;
+    left: 80%;
+    top: 56%;
+  }
+  .FILM4{
+    position: absolute;
+    left: 62%;
+    top: 56%;
+  }
+  .commingsoontext{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: absolute;
+    left: -220px;
+    font-size: 20px;
+    font-weight: 800;
+    left: 96%;
+    top: 20%;
+  }
+
+  .pos{
+    width: 150px;
+    height:150px;  
+}
+.c1{
+  position: absolute;
+  left: 60.1%;
+  top: 17%;
+}
+.c2{
+  position: absolute;
+  left:78.15%;
+  top: 17%;
+}
+.c3{
+  position: absolute;
+  left: 60.1%;
+  top: 53%;
+}
+.c4{
+  position: absolute;
+  left:78.15%;
+  top: 53%;
+}
+
+
+.POS{
+    width: 90px;
+    height: 90px; 
+}
+.k1{
+  position: absolute;
+  left: 61.1%;
+  top: 40%;
+}
+.k2{
+  position: absolute;
+  left:79.15%;
+  top: 40%;
+}
+.k3{
+  position: absolute;
+  left: 61.1%;
+  top: 77%;
+}
+.k4{
+  position: absolute;
+  left:79.15%;
+  top: 77%;
+}
+
+.width{
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s ease-out;
+}
+.fb{
+  position: absolute;
+  left: 20px;
+  top: 30%;
+}
+.ig{
+  position: absolute;
+  left: 20px;
+  top: 40%;
+  height: 40px;
+}
+.tw{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+.tt{
+  position: absolute;
+  left: 20px;
+  top: 60%;
+  width: 40px;
+  height: 40px;
+  left: 25px;
+}
+.width:hover{
+  color: #e50914;
+  width: 50px;
+  top: 50px;
+}
+
+.infoweb{
+  position: absolute;
+  left: 150px;
+  top: 30%;
+  color: white;
+  font-weight: 500;
+}
+.colormovie{
+  color: #e50914;
+  font-weight: 800;
+}
+.categories{
+  background-color: #e50914;
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: solid 1px #e50914 ;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 20px;
+
+}
+
+span:hover{
+  color: #e50914;
+  
+}
+.whitecolor{
+  color: #e50914;
+  letter-spacing: -10px;
+  font-weight: 800;
+}
+.whitecolor:hover{
+  color: white;
+}
+.redcolor{
+  color: #ffffff;
+  letter-spacing: -10px;
+  font-weight: 800;
+}
+.webtext:hover{
+  color: #e50914;
+}

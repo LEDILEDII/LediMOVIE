@@ -1,0 +1,144 @@
+.Backgrounnd-img{
+    position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+       -webkit-filter: grayscale(80%);
+       filter:grayscale(80%) ;
+       -webkit-filter: blur(5px);
+       filter:blur(5px) ;
+        
+  }
+  
+  .nameweb{
+    position: absolute;
+    padding: 30px 30px;
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .main {
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+    
+    position: absolute;
+    top: 25%;
+    
+  }
+  
+  .area {
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .area h1 {
+    font-size: 60px;
+    word-spacing: 15px;
+    line-height: 75px;
+  }
+  
+  .area h3 {
+    margin-top: -30px;
+    font-size: 27px;
+    font-weight: normal;
+  }
+  
+  .search {
+    width: 150%;
+    background-color: none;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .box {
+    width: 100%;
+    min-height: 65px;
+    border-radius: 8px;
+    
+    padding: 20px;
+    color: #e50914;
+  }
+  
+  .try {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e50914;
+    min-height: 65px;
+    width: 67%;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    
+  }
+  
+  .area h4 {
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  button{
+    color: white;
+    background-color: #e50914;
+    font-size: 30px;
+    min-width: 65px;
+    border:1px solid #e50914;
+  }
+  
+  .HOME{
+    background-image: url(/IMG/b8ce561f6cd4566c778be16adbc114dd.gif);
+    position: fixed;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+    z-index: 1;
+  
+  
+  }
+  
+  .HOME:target {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  .HOME .close {
+    color: #000;
+    font-size: 2em;
+    padding: 5px;
+    transition: color 0.3s;
+    line-height: 1.5;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
